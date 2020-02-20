@@ -7,6 +7,10 @@
     @include rayure(45deg, #000, #222, 10px, 20px);
 }
 
+.rayure2 {
+    @include rayure(-45deg, #000, #222, 10px, 20px);
+}
+
 .animbloc1 {
     animation: arrive-from-side 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
 }
