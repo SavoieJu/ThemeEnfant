@@ -61,10 +61,10 @@ header > h2 > a {
 }
 
 .animbloc1 {
-  animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
+  animation: arrive-from-side 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
 }
 
-@-webkit-keyframes flip-horizontal-bottom {
+@-webkit-keyframes arrive-from-side {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -75,7 +75,7 @@ header > h2 > a {
   }
 }
 
-@keyframes flip-horizontal-bottom {
+@keyframes arrive-from-side {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -87,14 +87,14 @@ header > h2 > a {
 }
 
 .animbloc2 {
-  -webkit-animation: rotate-scale-up 0.65s linear both;
-          animation: rotate-scale-up 0.65s linear both;
+  -webkit-animation: arrive-from-down-under 0.65s linear both;
+          animation: arrive-from-down-under 0.65s linear both;
 }
 
-@-webkit-keyframes rotate-scale-up {
+@-webkit-keyframes arrive-from-down-under {
   0% {
-    -webkit-transform: translateX(3000px);
-            transform: translateX(3000px);
+    -webkit-transform: translateY(3000px);
+            transform: translateY(3000px);
   }
   100% {
     -webkit-transform: translateX(0px);
@@ -102,10 +102,10 @@ header > h2 > a {
   }
 }
 
-@keyframes rotate-scale-up {
+@keyframes arrive-from-down-under {
   0% {
-    -webkit-transform: translateX(3000px);
-            transform: translateX(3000px);
+    -webkit-transform: translateY(3000px);
+            transform: translateY(3000px);
   }
   100% {
     -webkit-transform: translateX(0px);

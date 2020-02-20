@@ -8,10 +8,10 @@
 }
 
 .animbloc1 {
-    animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
+    animation: arrive-from-side 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
 }
 
-@keyframes flip-horizontal-bottom {
+@keyframes arrive-from-side {
     0% {
                 transform: translateX(0px);
     }
@@ -21,12 +21,12 @@
 }
 
 .animbloc2 {
-    animation: rotate-scale-up 0.65s linear both;
+    animation: arrive-from-down-under 0.65s linear both;
 }
 
-@keyframes rotate-scale-up {
+@keyframes arrive-from-down-under {
     0% {
-        transform: translateX(3000px);
+        transform: translateY(3000px);
     }
     100% {
             transform: translateX(0px);
