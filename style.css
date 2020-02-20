@@ -39,6 +39,10 @@ header > h2 > a {
   content: "";
 }
 
+.entry .entry-title:before {
+  content: none;
+}
+
 @media screen and (max-width: 800px) {
   .site-title > a::before {
     display: -webkit-box;
@@ -93,8 +97,8 @@ header > h2 > a {
             transform: scale(1) rotateZ(0);
   }
   50% {
-    -webkit-transform: scale(2) rotateZ(180deg);
-            transform: scale(2) rotateZ(180deg);
+    -webkit-transform: scale(0.01) rotateZ(180deg);
+            transform: scale(0.01) rotateZ(180deg);
   }
   100% {
     -webkit-transform: scale(1) rotateZ(360deg);
@@ -108,8 +112,8 @@ header > h2 > a {
             transform: scale(1) rotateZ(0);
   }
   50% {
-    -webkit-transform: scale(2) rotateZ(180deg);
-            transform: scale(2) rotateZ(180deg);
+    -webkit-transform: scale(0.01) rotateZ(180deg);
+            transform: scale(0.01) rotateZ(180deg);
   }
   100% {
     -webkit-transform: scale(1) rotateZ(360deg);
@@ -127,9 +131,5 @@ body {
 
 ::selection {
   background: aqua;
-}
-
-.entry .entry-title:before {
-  content: none;
 }
 /*# sourceMappingURL=style.css.map */
