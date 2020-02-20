@@ -1,0 +1,30 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://wordpress.org/
+ Description:  Twenty Nineteen Enfant Theme
+ Author:       Julien Savoie
+ Author URI:   http://savoie.dev/
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+ Text Domain:  Twentynineteenenfant
+*/
+
+@import './_mixin.scss';
+@import './_entete.scss';
+@import './_gutenberg.scss';
+@import './_footer.scss';
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+::selection {
+    background: aqua;
+}
+
+.entry .entry-title:before {
+    content: none;
+}

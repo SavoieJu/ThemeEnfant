@@ -1,0 +1,9 @@
+/*
+
+    ## Gutenberg
+
+*/
+
+.rayure {
+    @include rayure(45deg, #000, #fff, 10px, 20px);
+}

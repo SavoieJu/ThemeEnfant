@@ -1,0 +1,31 @@
+/*
+
+    ##Entete
+
+*/
+
+
+header > h2 > a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+}
+
+.site-title > a {
+    font-size: 2em;
+}
+
+
+.site-title > a::before {
+    background-image: url('https://pngimage.net/wp-content/uploads/2018/05/discobal-png-2.png');
+    display: inline-block;
+    background-size: 40px;
+    width: 40px; 
+    height: 40px;
+    content: "";
+}
+
+@media screen and (max-width: 800px) {
+    .site-title > a::before {
+        display: flex;
+    }
+}

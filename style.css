@@ -1,0 +1,74 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://wordpress.org/
+ Description:  Twenty Nineteen Enfant Theme
+ Author:       Julien Savoie
+ Author URI:   http://savoie.dev/
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+ Text Domain:  Twentynineteenenfant
+*/
+/*
+
+    ##Mixins
+
+*/
+/*
+
+    ##Entete
+
+*/
+header > h2 > a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+}
+
+.site-title > a {
+  font-size: 2em;
+}
+
+.site-title > a::before {
+  background-image: url("https://pngimage.net/wp-content/uploads/2018/05/discobal-png-2.png");
+  display: inline-block;
+  background-size: 40px;
+  width: 40px;
+  height: 40px;
+  content: "";
+}
+
+@media screen and (max-width: 800px) {
+  .site-title > a::before {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*
+
+    ## Gutenberg
+
+*/
+.rayure {
+  background: repeating-linear-gradient(45deg, #000, #000 10px, #fff 10px, #fff 20px);
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+::-moz-selection {
+  background: aqua;
+}
+
+::selection {
+  background: aqua;
+}
+
+.entry .entry-title:before {
+  content: none;
+}
+/*# sourceMappingURL=style.css.map */

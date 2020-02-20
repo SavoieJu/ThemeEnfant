@@ -1,0 +1,14 @@
+/*
+
+    ##Mixins
+
+*/
+
+@mixin rayure($deg, $couleur1, $couleur2, $dist1, $dist2) {
+    background: repeating-linear-gradient(
+        $deg,
+        $couleur1,
+        $couleur1 $dist1,
+        $couleur2 $dist1,
+        $couleur2 $dist2);
+}
