@@ -57,7 +57,7 @@ header > h2 > a {
 
 */
 .rayure {
-  background: repeating-linear-gradient(45deg, #000, #000 10px, #444 10px, #444 20px);
+  background: repeating-linear-gradient(45deg, #000, #000 10px, #222 10px, #222 20px);
 }
 
 .animbloc1 {
@@ -123,6 +123,11 @@ header > h2 > a {
 
 body {
   font-family: 'IBM Plex Mono', monospace;
+  background-color: #333;
+}
+
+.site-branding > .site-title > a, .entry-title, .entry-content, .comments-title-wrap {
+  color: #eee;
 }
 
 ::-moz-selection {
